@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:clickable="true">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/photo_iv"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:padding="5dp"
+        app:shapeAppearance="@style/Shapes.Corner16"
+        tools:src="@drawable/pink_lemonade"
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/title_tv"
+        style="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:fontFamily="@font/didact_gothic_regular"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Pink lemonade" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
