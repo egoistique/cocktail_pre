@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="Theme.Wretches" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/md_theme_light_primary</item>
@@ -50,4 +50,21 @@
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">25%</item>
     </style>
+
+    <style name="Shapes.RoundedBckgr" parent="">
+        <item name="android:background">@drawable/rounded_background</item>
+    </style>
+
+
+    <style name="RoundedTextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">16dp</item> <!-- Adjust the corner radius as needed -->
+        <item name="boxCornerRadiusBottomStart">16dp</item> <!-- Adjust the corner radius as needed -->
+        <item name="boxCornerRadiusTopEnd">16dp</item> <!-- Adjust the corner radius as needed -->
+        <item name="boxCornerRadiusTopStart">16dp</item> <!-- Adjust the corner radius as needed -->
+        <item name="boxStrokeColor">@color/blue</item> <!-- Replace with your desired stroke color -->
+        <item name="android:hint">Cocktail name</item>
+        <item name="hintAnimationEnabled">true</item>
+    </style>
+
+
 </resources>

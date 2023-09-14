@@ -17,5 +17,6 @@ data class Crime(
     val title: String,
     val description: String,
     val isSolved: Boolean,
-    val photos: List<Uri> = emptyList()
+    val photos: List<Uri> = emptyList(),
+    //val ingredients: List<String> = emptyList()
 ) : Parcelable

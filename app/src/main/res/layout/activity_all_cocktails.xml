@@ -17,7 +17,7 @@
         android:id="@+id/cocktails_rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="10dp"
         android:paddingTop="130dp"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:spanCount="2"
@@ -41,7 +41,9 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/blue"
         android:src="@drawable/ic_add"
-        android:layout_gravity="right"
+        android:layout_margin="40dp"
+        app:layout_anchor="@id/cocktails_rv"
+        app:layout_anchorGravity="bottom|end"
         app:shapeAppearanceOverlay="@style/RoundedShape"
         tools:ignore="MissingConstraints" />
 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Rectangular Block -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rectangular_block"
+        style="@style/Shapes.RoundedBckgr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Text -->
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/didact_gothic_regular"
+            android:gravity="center"
+            android:text="9 cups water"
+            android:textSize="15sp"
+            tools:ignore="MissingConstraints" />
+
+        <!-- Close Button -->
+        <ImageView
+            android:id="@+id/close_btn"
+            android:layout_width="30dp"
+            android:layout_height="29dp"
+            android:clickable="true"
+            android:contentDescription="@string/new_crime_remove_photo_text"
+            android:padding="8dp"
+            android:src="@drawable/ic_close_button"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

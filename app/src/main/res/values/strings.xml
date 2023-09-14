@@ -51,4 +51,5 @@
     <string name="photo_picker_no_permission_title_text">Нет разрешения</string>
     <string name="photo_picker_no_permission_description_text">Для того, чтобы отобразить фотографии, приложению требуется разрешение для чтения их из памяти устройства</string>
     <string name="photo_picker_ok_text">Ок</string>
+    <string name="edit">Edit</string>
 </resources>

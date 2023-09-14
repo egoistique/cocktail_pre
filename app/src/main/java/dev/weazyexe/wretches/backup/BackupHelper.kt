@@ -91,7 +91,8 @@ class BackupHelper(context: Context) {
             title = it.title,
             description = it.description,
             isSolved = it.isSolved,
-            photos = it.photos.asBase64Strings()
+            photos = it.photos.asBase64Strings(),
+            //ingredients = it.ingredients
         )
     }
 
@@ -135,7 +136,8 @@ class BackupHelper(context: Context) {
             title = it.title,
             description = it.description,
             isSolved = it.isSolved,
-            photos = it.photos.saveImagesToInternalStorage()
+            photos = it.photos.saveImagesToInternalStorage(),
+            //ingredients = it.ingredients
         )
     }
 
