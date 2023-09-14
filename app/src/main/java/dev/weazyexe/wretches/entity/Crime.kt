@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 import kotlinx.parcelize.Parcelize
 
 /**
- * Сущность преступления
+ * Сущность коктейля
  */
 @Entity
 @Parcelize
